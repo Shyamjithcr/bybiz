@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Hand:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+:root {
+    --backgeount-color-primary: #f7eeee;
+    --backgeount-color-secondery: #6391f6;
+    --backgeount-color-therd: #0e0d0d;
+    --font-family-main: "Roboto", sans-serif;
+    --heading-color: #000000;
+}
+
+body {
+    background-color: var(--backgeount-color-secondery);
+    font-family: var(--font-family-main);
+
+}
+
+
+/* footer */
+
+

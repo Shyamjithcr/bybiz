@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Hand:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+:root {
+    --backgeount-color-primary: #fcf9f9;
+    --backgeount-color-secondery: #6391f6;
+    --backgeount-color-therd: #0e0d0d;
+    --font-family-main: "Roboto", sans-serif;
+    --heading-color: #000000;
+}
+
+body {
+    background-color: var(--backgeount-color-primary);
+    font-family: var(--font-family-main);
+
+}
+
+/* Header style started */
+
+.main-manu {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.brand-name {
+    font-size: 28px;
+    font-weight: 600;
+    color: var(--heading-color);
+    margin: 0px;
+}
+
+.navbar {
+    background-color: var(--backgeount-color-primary);
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--heading-color);
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover {
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    color: var(--backgeount-color-secondery);
+}
+
+/* banner section start */
+
+.carousel-item {
+    height: 80vh;
+    object-fit: contain;
+}
+
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 10.25rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+}
+
+/* content start */
+
+.content {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.content p {
+    font-weight: normal;
+    letter-spacing: 0.5px;
+}
+
+/* Media Qeury */
+
+/* @media (max-width:842px){
+    .content p{
+        font-weight: 500;
+    }
+} */
+
+
+.content .content-list {
+    line-height: 30px;
+
+}
+
+.content .content-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.content .content-list li {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 10px;
+}
+
+
+.content-more{
+    padding: 8px 22px;
+    background-color: var(--backgeount-color-secondery);
+    color: var(--backgeount-color-primary);
+    border-radius: 10px;
+    border: none;
+}
